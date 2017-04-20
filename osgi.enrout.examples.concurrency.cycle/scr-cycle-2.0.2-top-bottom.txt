@@ -1,0 +1,23 @@
+ServiceEvent REGISTERED org.apache.felix.scr_2.0.2 [4] {org.apache.felix.scr.impl.ScrGogoCommand}={service.vendor=The Apache Software Foundation, service.description=SCR Gogo Shell Support, osgi.command.function=[config,disable,enable,info,list], osgi.command.scope=scr, service.id=34, service.bundleid=4, service.scope=singleton}
+ServiceEvent REGISTERED org.apache.felix.scr_2.0.2 [4] {org.apache.felix.scr.impl.ScrGogoCommand}={service.vendor=The Apache Software Foundation, service.description=SCR Gogo Shell Support, osgi.command.function=[config,disable,enable,info,list], osgi.command.scope=scr, service.id=34, service.bundleid=4, service.scope=singleton}
+ServiceEvent REGISTERED org.apache.felix.scr_2.0.2 [4] {org.osgi.service.cm.ManagedService}={service.vendor=The Apache Software Foundation, service.pid=org.apache.felix.scr.ScrService, service.description=SCR Configurator, service.id=35, service.bundleid=4, service.scope=bundle}
+ServiceEvent REGISTERED org.apache.felix.scr_2.0.2 [4] {org.osgi.service.cm.ManagedService}={service.vendor=The Apache Software Foundation, service.pid=org.apache.felix.scr.ScrService, service.description=SCR Configurator, service.id=35, service.bundleid=4, service.scope=bundle}
+BundleEvent STARTED org.apache.felix.scr_2.0.2 [4] null
+BundleEvent STARTED org.eclipse.osgi_3.10.100.v20150529-1857 [0] null
+Cannot create MetaType providing ManagedService; not providing Metatype information but just accepting configuration org.apache.felix.scr_2.0.2 [4] null
+ServiceEvent REGISTERED osgi.enrout.examples.concurrency.cycle.top_0.0.0 [5] {osgi.enroute.examples.concurrency.cycle.top.Top}={component.name=osgi.enroute.examples.concurrency.cycle.top.Top, component.id=1, service.id=36, service.bundleid=5, service.scope=bundle}
+ServiceEvent REGISTERED osgi.enrout.examples.concurrency.cycle.top_0.0.0 [5] {osgi.enroute.examples.concurrency.cycle.top.Top}={component.name=osgi.enroute.examples.concurrency.cycle.top.Top, component.id=1, service.id=36, service.bundleid=5, service.scope=bundle}
+new Top()
+Top.activate()
+BundleEvent STARTED osgi.enrout.examples.concurrency.cycle.top_0.0.0 [5] null
+BundleEvent STARTED org.eclipse.osgi_3.10.100.v20150529-1857 [0] null
+new Bottom()
+Bottom.top=<top>
+Bottom.activate()
+Top.bottom +=<bottom>
+ServiceEvent REGISTERED osgi.enrout.examples.concurrency.cycle.bottom_0.0.0 [6] {osgi.enroute.examples.concurrency.cycle.bottom.Bottom}={component.name=osgi.enroute.examples.concurrency.cycle.bottom.Bottom, component.id=2, service.id=37, service.bundleid=6, service.scope=bundle}
+ServiceEvent REGISTERED osgi.enrout.examples.concurrency.cycle.bottom_0.0.0 [6] {osgi.enroute.examples.concurrency.cycle.bottom.Bottom}={component.name=osgi.enroute.examples.concurrency.cycle.bottom.Bottom, component.id=2, service.id=37, service.bundleid=6, service.scope=bundle}
+BundleEvent STARTED osgi.enrout.examples.concurrency.cycle.bottom_0.0.0 [6] null
+BundleEvent STARTED org.eclipse.osgi_3.10.100.v20150529-1857 [0] null
+ServiceEvent REGISTERED org.eclipse.osgi_3.10.100.v20150529-1857 [0] {java.lang.Object, aQute.launcher.Launcher}={service.ranking=-1000, launcher.arguments=[], launcher.ready=true, service.id=38, service.bundleid=0, service.scope=singleton}
+ServiceEvent REGISTERED org.eclipse.osgi_3.10.100.v20150529-1857 [0] {java.lang.Object, aQute.launcher.Launcher}={service.ranking=-1000, launcher.arguments=[], launcher.ready=true, service.id=38, service.bundleid=0, service.scope=singleton}
