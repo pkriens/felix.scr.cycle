@@ -12,7 +12,7 @@
 	osgi.enrout.examples.concurrency.cycle.log;version=snapshot,\
 	org.apache.felix.configadmin;version='[1.8.8,1.8.9)',\
 	org.apache.felix.log;version='[1.0.1,1.0.2)',\
-	org.apache.felix.scr;version='[2.0.6,2.0.7)',\
-	osgi.enrout.examples.concurrency.cycle.top;version=snapshot, \
-	osgi.enrout.examples.concurrency.cycle.bottom;version=snapshot,\
+	org.apache.felix.scr;version='[2.0.14,2.0.15)',\
+    osgi.enrout.examples.concurrency.cycle.bottom;version=snapshot,\
+    osgi.enrout.examples.concurrency.cycle.top;version=snapshot, \
 	
